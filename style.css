@@ -58,13 +58,10 @@ body {
 	height: 8vh;
 	display: flex;
 	align-items: center;
-<<<<<<< HEAD
 	color: blue;
-=======
->>>>>>> upstream/master
 	font-family: tahoma;
 	font-size: 1.2em;
-	
+
 }
 .navtext{
 	margin-left: 100px;

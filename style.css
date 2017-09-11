@@ -58,7 +58,7 @@ body {
 	height: 8vh;
 	display: flex;
 	align-items: center;
-	color: white;
+	color: blue;
 	font-family: tahoma;
 	font-size: 1.2em;
 	
@@ -68,7 +68,7 @@ body {
 }
 .main-navigation a{
 	margin: 0 10px;
-	color: white;
+	color: blue;
 }
 .main-navigation a:hover{
 	color: black;

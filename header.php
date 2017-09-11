@@ -46,7 +46,6 @@
 		<nav id="site-navigation" class="main-navigation container">
 		<div class="row">
 		<div class="col-md-12">
-			
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'danfossproject' ); ?></button>
 <div class="navtext">
 			<?php

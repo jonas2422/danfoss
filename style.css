@@ -58,16 +58,17 @@ body {
 	height: 8vh;
 	display: flex;
 	align-items: center;
+	color: blue;
 	font-family: tahoma;
 	font-size: 1.2em;
-	
+
 }
 .navtext{
 	margin-left: 100px;
 }
 .main-navigation a{
 	margin: 0 10px;
-	color: white;
+	color: blue;
 }
 .main-navigation a:hover{
 	color: black;

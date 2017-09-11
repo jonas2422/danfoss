@@ -59,12 +59,19 @@ body {
 	display: flex;
 	align-items: center;
 	color: white;
-	font-size: 2em;
 	font-family: tahoma;
+	font-size: 1.2em;
 	
 }
 .navtext{
+	margin-left: 100px;
+}
+.main-navigation a{
 	margin: 0 10px;
+	color: white;
+}
+.main-navigation a:hover{
+	color: black;
 }
 article,
 aside,
@@ -506,9 +513,6 @@ a {
 	color: royalblue;
 }
 
-a:visited {
-	color: purple;
-}
 
 a:hover, a:focus, a:active {
 	color: midnightblue;

@@ -68,7 +68,7 @@ body {
 }
 .main-navigation a{
 	margin: 0 10px;
-	color: white;
+	color: blue;
 }
 .main-navigation a:hover{
 	color: black;

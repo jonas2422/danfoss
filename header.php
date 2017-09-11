@@ -22,6 +22,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<h1>lala</h1>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'danfossproject' ); ?></a>
 
@@ -46,7 +47,7 @@
 		<nav id="site-navigation" class="main-navigation container">
 		<div class="row">
 		<div class="col-md-12">
-			
+
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'danfossproject' ); ?></button>
 <div class="navtext">
 			<?php
@@ -56,7 +57,7 @@
 				) );
 			?>
 </div>
-			
+
 		</div>
 		</div>
 		</nav><!-- #site-navigation -->

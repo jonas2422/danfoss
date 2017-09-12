@@ -871,3 +871,72 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.site-info h3{
+	color: white;
+	text-align: center;
+}
+
+.dropdown_nav {
+	min-width: 100%;
+	background: red;
+}
+
+.btn-group {
+	/*width: 100%;*/
+	background: red;
+}
+
+.btn-group button {
+	display: block;
+}
+
+.btn-secondary {
+	background-color: red;
+	color: white;
+	border: 0;
+}
+
+div.dropdown-menu {
+
+
+	 width: 100%;
+
+	 background: #c00808;
+
+
+ }
+
+.dropdown-item {
+	color: white;
+	padding: 20px;
+	margin: 60px 0;
+}
+
+ .show>.btn-secondary.dropdown-toggle {
+     color: white;
+}
+
+.dropdown-toggle {
+
+}
+
+ .site-footer {
+	 background: red;
+ }
+
+.show {
+	min-width: 100%;
+	background: red;
+}
+
+footer {
+	min-width: 100%;
+}
+
+footer a {
+	min-width: 100%;
+	display: block;
+	position: relative;
+	float: left;
+}

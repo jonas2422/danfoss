@@ -15,15 +15,77 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'danfossproject' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'danfossproject' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'danfossproject' ), 'danfossproject', '<a href="http://underscores.me/">Underscores.me</a>' );
-			?>
+			<h3>Vær social <strong>Deltag aktivt</strong></h3>
+
+
+<!-- Split dropup button -->
+<div class="dropdown_nav">
+<div class="btn-group dropup">
+  <div class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   PRODUKTKATALOG
+  </div>
+
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+		<button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+
+	<div class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   ERHVERV
+  </div>
+
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+		<button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+
+	<div class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   INDUSTRI
+  </div>
+
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+		<button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+
+	<div class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   PRIVATPERSONER
+  </div>
+
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+		<button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+
+	<div class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   FORRETNINGSPARTNER
+  </div>
+
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+		<button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+
+
+
+
+
+
+
+</div>
+</div>
+
+
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

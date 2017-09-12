@@ -24,18 +24,24 @@
 	<?php wp_head(); ?>
 </head>
 
+<<<<<<< HEAD
 <body <?php body_class(); ?>
+=======
+<body <?php body_class(); ?>>
+>>>>>>> upstream/master
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'danfossproject' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
+		<div class="site-branding container">
+		<div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="danlogo" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php
 			endif;
 
@@ -44,6 +50,8 @@
 				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 			<?php
 			endif; ?>
+			</div>
+			</div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation container">

@@ -994,3 +994,8 @@ footer a {
 	position: relative;
 	float: left;
 }
+
+html
+{
+    font-size: 0.8em;
+}

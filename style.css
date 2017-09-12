@@ -965,6 +965,9 @@ div.dropdown-menu {
 	color: white;
 	padding: 20px;
 	margin: 60px 0;
+	width: 20%;
+	text-align: center;
+	border-bottom: 1px solid white;
 }
 
  .show>.btn-secondary.dropdown-toggle {
@@ -998,4 +1001,16 @@ footer a {
 html
 {
     font-size: 0.8em;
+}
+
+
+
+.menu-footer-container ul li {
+	display: inline;
+	float: left;
+}
+
+.menu-footer-container ul li a{
+	color: white;
+	padding-right: 10px;
 }

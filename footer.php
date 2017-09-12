@@ -20,13 +20,21 @@
 
 <!-- Split dropup button -->
 <div class="dropdown_nav">
+	<?php wp_nav_menu( array(
+		'theme_location' => 'secondary' 
+
+
+	) );
+	?>
+
+	<!--
 <div class="btn-group dropup">
   <div class="btn btn-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
    PRODUKTKATALOG
   </div>
 
   <div class="dropdown-menu">
-    <!-- Dropdown menu links -->
+
 		<button class="dropdown-item" type="button">Action</button>
     <button class="dropdown-item" type="button">Another action</button>
     <button class="dropdown-item" type="button">Something else here</button>
@@ -37,7 +45,7 @@
   </div>
 
   <div class="dropdown-menu">
-    <!-- Dropdown menu links -->
+
 		<button class="dropdown-item" type="button">Action</button>
     <button class="dropdown-item" type="button">Another action</button>
     <button class="dropdown-item" type="button">Something else here</button>
@@ -48,7 +56,7 @@
   </div>
 
   <div class="dropdown-menu">
-    <!-- Dropdown menu links -->
+
 		<button class="dropdown-item" type="button">Action</button>
     <button class="dropdown-item" type="button">Another action</button>
     <button class="dropdown-item" type="button">Something else here</button>
@@ -59,7 +67,7 @@
   </div>
 
   <div class="dropdown-menu">
-    <!-- Dropdown menu links -->
+
 		<button class="dropdown-item" type="button">Action</button>
     <button class="dropdown-item" type="button">Another action</button>
     <button class="dropdown-item" type="button">Something else here</button>
@@ -70,7 +78,7 @@
   </div>
 
   <div class="dropdown-menu">
-    <!-- Dropdown menu links -->
+
 		<button class="dropdown-item" type="button">Action</button>
     <button class="dropdown-item" type="button">Another action</button>
     <button class="dropdown-item" type="button">Something else here</button>
@@ -78,7 +86,7 @@
 
 
 
-
+-->
 
 
 
@@ -91,6 +99,16 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script>
+	document.querySelector("#menu-footer").addEventListener("click", function(e) {
+		e.preventDefault();
+		console.log(document.querySelector(".btn"));
+			document.querySelector(".btn").setAttribute("aria-expanded", "true");
+		document.querySelector(".btn").setAttribute("data-toggle", "dropdown");
+		document.querySelector(".btn").setAttribute("aria-haspopup", "true");
+		console.log("clicked");
+	});
 
+</script>
 </body>
 </html>

@@ -52,23 +52,77 @@ html {
 
 body {
 	margin: 0;
+	padding: 0;
+}
+.site-header{
+	background-image: url(../../../images/danfoss.jpg);
+	height: 70vh;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.site-branding{
+	position: relative;
+	height: auto;
+	width: 100%;
+	top: 0;
+	background-color: #C60609;
+}
+.danlogo{
+	float: left;
+	position: relative;
+	height: 90px;
+	width: 20%;
+	background-image: url(../../../images/danfosslogo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 2.3%;
+	text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1100px) {
+	.danlogo{
+		height: 90px;
+		width: 200px;
+	}
+}
+.site-description{
+	display: inline-block;
+	text-align: center;
+	float: left;
+	height: 10%;
+	width: 10%;
+	color: white;
+	font-family: tahoma;
+	font-size: 20px;
+	margin: 0;
+	margin-top: 2%;
+}
+.site-description p{
+	top: 50%;
+	transform: translateY(-50%);
 }
 #site-navigation{
 	background-color: #DF000E;
 	height: 8vh;
 	display: flex;
 	align-items: center;
-	color: blue;
+	color: white;
 	font-family: tahoma;
+	position: relative;
 	font-size: 1.2em;
 
 }
 .navtext{
 	margin-left: 100px;
 }
+.main-navigation{
+	bottom: 0;
+}
 .main-navigation a{
 	margin: 0 10px;
-	color: blue;
+	color: white;
 }
 .main-navigation a:hover{
 	color: black;

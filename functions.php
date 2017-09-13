@@ -156,3 +156,51 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+require_once('class-wp-bootstrap-navwalker.php');
+
+// This theme uses wp_nav_menu() in two locations.
+register_nav_menus( array(
+  'primary' => __( 'Primary Navigation', 'danfossproject' ),
+  'secondary' => __('Secondary Navigation', 'danfossproject'),
+	'menu_class' => "btn",
+	'container_class' => "btn"
+) );
+
+function wpb_init_widgets($id){
+  register_sidebar(array(
+    'name'  => 'Sidebar',
+    'id'    => 'sidebar',
+    'before_widget' => '<div class="sidebar-module">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h4>',
+    'after_title'   => '</h4>'
+  ));
+
+  register_sidebar(array(
+    'name'  => 'Box1',
+    'id'    => 'box1',
+    'before_widget' => '<div class="news">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
+    'name'  => 'Box2',
+    'id'    => 'box2',
+  
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
+    'name'  => 'Box3',
+    'id'    => 'box3',
+    'before_widget' => '<div class="news">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3>',
+    'after_title'   => '</h3>'
+  ));
+}
+
+add_action('widgets_init', 'wpb_init_widgets');

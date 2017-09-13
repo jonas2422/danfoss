@@ -31,6 +31,37 @@ get_header(); ?>
 			?>
 
 		</main><!-- #main -->
+		<div class="newsplace container">
+		<div class="row allnews">
+				<div class="col-md-4 col-sm-12">
+				<div class="news new1">
+					<?php if(is_active_sidebar('box1')) : ?>
+            <?php dynamic_sidebar('box1'); ?>
+          <?php endif; ?>
+
+				</div>
+				</div>
+
+
+				<div class="col-md-4 col-sm-12">
+				<div class="news new2">
+					<?php if(is_active_sidebar('box2')) : ?>
+						<?php dynamic_sidebar('box2'); ?>
+					<?php endif; ?>
+				</div>
+				</div>
+
+
+				<div class="col-md-4 col-sm-12">
+				<div class="news new3">
+					<?php if(is_active_sidebar('box3')) : ?>
+ 					 <?php dynamic_sidebar('box3'); ?>
+ 				 <?php endif; ?>
+				</div>
+				</div>
+		</div>
+		</div>
+
 	</div><!-- #primary -->
 
 <?php

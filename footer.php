@@ -21,7 +21,12 @@
 <!-- Split dropup button -->
 <div class="dropdown_nav">
 	<?php wp_nav_menu( array(
-		'theme_location' => 'secondary' 
+		'theme_location' => 'secondary',
+		'depth'				=> 2,
+	'container'			=> 'div',
+	'menu_class'		=> 'dropup',
+    'fallback_cb'		=> 'WP_Bootstrap_Navwalker::fallback',
+    'walker'			=> new WP_Bootstrap_Navwalker()
 
 
 	) );
